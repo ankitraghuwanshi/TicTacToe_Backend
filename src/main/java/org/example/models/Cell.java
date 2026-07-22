@@ -44,4 +44,8 @@ public class Cell {
         this.cellState = CellState.EMPTY;
         this.player = null;
     }
+
+    public boolean isEmpty() {
+        return this.cellState == CellState.EMPTY;
+    }
 }
